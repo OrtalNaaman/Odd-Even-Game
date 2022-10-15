@@ -1,0 +1,22 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 300px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(132, 239, 204, 0.871),
+    transparent
+  );
+  color: rgb(124, 53, 142);
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}

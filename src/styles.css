@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 20px;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(89, 201, 216),
+    transparent
+  );
+}
+
+app-game-control,
+app-even {
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+  width: 300px;
+}

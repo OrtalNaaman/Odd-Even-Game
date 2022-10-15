@@ -1,0 +1,25 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 300px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(169, 220, 203, 0.871),
+    transparent
+  );
+  color: blueviolet;
+}
+button {
+  color: rgb(27, 83, 83);
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(89, 167, 216),
+    transparent
+  );
+  box-shadow: 2px 2px rgba(128, 128, 128, 0.258);
+  border-radius: 10px;
+  border: none;
+}
